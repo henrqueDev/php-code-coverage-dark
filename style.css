@@ -283,19 +283,19 @@ table#code td:first-of-type a {
 
 .table tbody tr.covered-by-large-tests, li.covered-by-large-tests,
 tr.success, td.success, li.success, span.success {
-    background-color: rgb(41, 60, 23);
+    background-color: var(--phpunit-success-bar);
 }
 
 .table tbody tr.warning, .table tbody td.warning, li.warning, span.warning {
-    background-color: rgb(47, 40, 5);
+    background-color: rgb(95, 81, 11);
 }
 
 .table tbody tr.danger, .table tbody td.danger, li.danger, span.danger {
-    background-color: rgb(56, 22, 22);
+    background-color: rgb(112, 29, 29);
 }
 
 .table tbody tr.covered-by-medium-tests, li.covered-by-medium-tests {
-    background-color: rgb(41, 64, 32);
+    background-color: rgb(64, 62, 32);
 }
 
 .table tbody tr.covered-by-small-tests, li.covered-by-small-tests {
