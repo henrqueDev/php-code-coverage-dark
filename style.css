@@ -288,6 +288,7 @@ table#code td:first-of-type a {
 .table tbody tr.covered-by-large-tests, li.covered-by-large-tests,
 tr.success, td.success, li.success, span.success {
     background-color: var(--phpunit-success-bar);
+    color: #fff;
 }
 
 .table tbody tr.warning, .table tbody td.warning, li.warning, span.warning {
