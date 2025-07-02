@@ -1,12 +1,12 @@
 :root {
  --phpunit-breadcrumbs: #000000;
  --phpunit-success-bar: #28a745;
- --phpunit-success-high: #baffa9;
+ --phpunit-success-low: #baffa9;
  --phpunit-success-medium: #95ff68;
- --phpunit-success-low: #28a745;
+ --phpunit-success-high: #28a745;
  --phpunit-warning: #ffd500;
  --phpunit-warning-bar: #ffc107;
- --phpunit-danger: #ff4040;
+ --phpunit-danger: #ad2a2a;
  --phpunit-danger-bar: #ff0000;
 }
 
@@ -78,7 +78,7 @@ nav .breadcrumb {
 }
 
 .table tbody tr.covered-by-large-tests, .table tbody tr.covered-by-large-tests td, li.covered-by-large-tests, tr.success, tr.success td, td.success, li.success, span.success {
- background-color: var(--phpunit-success-low);
+ background-color: var(--phpunit-success-high);
  color: black;
 }
 
@@ -88,7 +88,7 @@ nav .breadcrumb {
 }
 
 .table tbody tr.covered-by-small-tests, .table tbody tr.covered-by-small-tests td, li.covered-by-small-tests {
- background-color: var(--phpunit-success-high);
+ background-color: var(--phpunit-success-low);
  color: black;
 }
 
@@ -132,8 +132,12 @@ td span.keyword {
  font-weight: bold;
 }
 
+span.string {
+    color: rgb(255, 255, 255);
+}
+
 pre span.string {
- color: var(--bs-body-color);
+    color: rgb(255, 255, 255);
 }
 
 span.success, span.warning, span.danger {
@@ -186,18 +190,18 @@ table#code td:first-of-type a {
 }
 
 .covered-by-small-tests {
- background-color: var(--phpunit-success-high);
- color: #000;
+ background-color: var(--phpunit-success-low);
+ color: #1a1a1a;
 }
 
 .covered-by-medium-tests {
  background-color: var(--phpunit-success-medium);
- color: #000;
+ color: #1a1a1a;
 }
 
 .covered-by-large-tests {
- background-color: var(--phpunit-success-low);
- color: #000;
+ background-color: var(--phpunit-success-high);
+ color: #fff;
 }
 
 .not-covered {
