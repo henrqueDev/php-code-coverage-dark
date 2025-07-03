@@ -1,4 +1,4 @@
-<h1 align="center">PHP Code Covarage Dark mode</h1>
+<h1 align="center">PHP Code Coverage Dark mode</h1>
 
 ## Descrição
 - Repositório com estilos CSS para sobrescrever os estilos padrão das paginas HTML geradas pela lib [php-code-coverage](https://github.com/sebastianbergmann/php-code-coverage) com tema escuro
